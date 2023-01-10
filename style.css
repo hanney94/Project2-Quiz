@@ -1,14 +1,53 @@
 .nav-link{
 
-	font-family: 'Tajawal', sans-serif;
-	font-size: 20px;
-	color: gold;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	color: #B8860B;
 }
 
-.nav-link:active {
+#content, #listen {
 
-    font-family: 'Tajawal', sans-serif;
-	font-size: 20px;
-	color: gold;
-
+	text-align: center;
+	padding-top: 150px;
 }
+
+h1 {
+
+	font-family: 'Raleway', sans-serif;
+	font-size: 80px;
+}
+
+p {
+
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	color:#B8860B;
+}
+
+a {
+
+	color:pink;
+}
+
+.button { 
+ 
+	transition: all .5s ease;
+	background-color:transparent;
+	color:black;
+	border-radius:20px;
+	border:1px solid black;
+	padding:12px 28px;
+	text-decoration:none;
+	opacity:0.5;
+	font-family: 'Raleway', sans-serif;
+}
+
+.button:hover {
+
+	color:black;
+	border: 2px solid black;
+	opacity:1;
+	background-color:#B8860B;
+
+	}
+
