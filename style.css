@@ -1,3 +1,8 @@
+#wrapper {
+
+	font-family: 'Raleway', sans-serif;
+}
+
 .nav-link{
 
 	font-family: 'Raleway', sans-serif;
@@ -5,16 +10,38 @@
 	color: #B8860B;
 }
 
-#content, #listen {
+#content, #listen, #howto {
 
 	text-align: center;
 	padding-top: 150px;
 	font-family: 'Raleway', sans-serif;
+		max-width: 100%;
+       height: auto;
+}
+
+#instructions {
+	padding-top:50px;
+	width: 50%;
+    float: left;
+    text-align: center;
+  
+}
+
+#images {
+	width: 50%;
+	float:right;
+
+}
+
+#abba2 {
+	max-width: 100%;
+        height: auto;
+        text-align: center;
 }
 
 #music {
 
-	color:black;
+	color:#B8860B;
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -23,13 +50,16 @@
 h1 {
 
 	font-family: 'Raleway', sans-serif;
-	font-size: 80px;
+	font-size: 5vw;
+	max-width: 100%;
+  height: auto;
+
 }
 
 p {
 
 	font-family: 'Raleway', sans-serif;
-	font-size: 15px;
+	font-size: 1vw;
 	color:#B8860B;
 }
 
@@ -49,6 +79,8 @@ a {
 	text-decoration:none;
 	opacity:0.5;
 	font-family: 'Raleway', sans-serif;
+	max-width: 100%;
+	height: auto;
 }
 
 .button:hover {
@@ -57,6 +89,13 @@ a {
 	border: 2px solid black;
 	opacity:0.7;
 	background-color:#B8860B;
+
+	}
+
+	#image {
+
+		max-width: 100%;
+        height: auto;
 
 	}
 
