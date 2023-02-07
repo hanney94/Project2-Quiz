@@ -10,6 +10,10 @@
 	color: #B8860B;
 }
 
+.navbar {
+	border-bottom: solid gray 1px;
+}
+
 #content, #listen, #howto {
 
 	text-align: center;
@@ -24,19 +28,21 @@
 	width: 50%;
     float: left;
     text-align: center;
-  
+   
+
 }
 
 #images {
 	width: 50%;
 	float:right;
-
 }
 
 #abba2 {
 	max-width: 100%;
         height: auto;
-        text-align: center;
+        padding:30px;
+        
+
 }
 
 #music {
@@ -98,4 +104,10 @@ a {
         height: auto;
 
 	}
+
+	#quiz {
+		background-color: black;
+	}
+
+	
 
