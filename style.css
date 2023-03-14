@@ -123,16 +123,13 @@ a {
 }
 
 	#user-score {
-		color:white;
+		color:grey;
 	}
 
 	#total-score {
 		color:black;
 	}
 
-	.content2 {
-		
-	}
 
 	.butn {
 	background-color:transparent;
@@ -155,11 +152,12 @@ a {
 	}
 
 	.bton {
+		margin: 10px;
 	background-color:transparent;
 	color:black;
 	border-radius:20px;
 	border:1px solid black;
-	padding:12px 28px;
+	padding:10px 24px;
 	text-decoration:none;
 	opacity:0.5;
 	font-family: 'Raleway', sans-serif;
@@ -180,7 +178,7 @@ a {
 	}
 
 	.controls {
-		padding:10px;
+		padding:5px;
 		order:4;
 	}
 
