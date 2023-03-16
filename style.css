@@ -62,7 +62,7 @@ h1 {
 
 }
 
-p {
+#abbafan{
 
 	font-family: 'Raleway', sans-serif;
 	font-size: 1vw;
@@ -104,85 +104,74 @@ a {
         height: auto;
 
 	}
+/* Quiz */
 
-#container1 {
-
-        display:flex;
-        flex-direction: column;
-	justify-content: center;
+#container {
+	font-family: 'Raleway', sans-serif;
+	box-sizing: border-box;
+	padding: 0;
+	width:100vw;
+	height: 100vh;
+	display:flex;
+	justify-content:center;
 	align-items: center;
-	text-align: center;	
-	height: 70vh;
-
-}	
-
-
-.score{
-	font-size: large;
-	font-weight: bold;
+	max-width: 80rem;
+	margin:0 auto;
+	padding: 2 rem;
 }
 
-	#user-score {
-		color:grey;
-	}
+#flex-column {
 
-	#total-score {
-		color:black;
-	}
+	display:flex;
+	flex-direction: column;
+}
 
+#flex-center {
+	justify-content: center;
+	align-items: center;
+}
 
-	.butn {
-	background-color:transparent;
-	color:black;
-	border-radius:20px;
-	border:1px solid black;
-	padding:12px 28px;
-	text-decoration:none;
-	opacity:0.5;
-	font-family: 'Raleway', sans-serif;
-	max-width: 100%;
-	height: auto;
-	}
+#justify-center {
+	justify-content: center;
+}
 
-	.butn:hover {
-		color:black;
-	border: 2px solid black;
-	opacity:0.7;
-	background-color:#b5b86a;
-	}
+#text.center {
+	text-align: center;
+}
 
-	.bton {
-		margin: 10px;
-	background-color:transparent;
-	color:black;
-	border-radius:20px;
-	border:1px solid black;
-	padding:10px 24px;
-	text-decoration:none;
-	opacity:0.5;
-	font-family: 'Raleway', sans-serif;
-	max-width: 100%;
-	height: auto;
-	}
-
-	.bton:hover {
-		color:black;
-	border: 2px solid black;
-	opacity:0.7;
-	background-color:#b5b86a;
-	}
-
-	.options {
-		padding:10px;
-		order:3;
-	}
-
-	.controls {
-		padding:5px;
-		order:4;
-	}
-
-	.hide {
+.hidden {
 		display:none;
 	}
 
+.choice-container {
+	display:flex;
+	margin-bottom: 0.8rem;
+	width:100%;
+	border-radius: 4px;
+	background-color: #b5b86a;
+	font-size: 20px;
+	min-width: 80rem;
+}
+
+.choice-container:hover {
+	cursor: pointer;
+	border: 2px solid black;
+}
+
+.choice-prefix {
+	padding: 2rem 2.5rem;
+	color:white;
+}	
+
+.choice-text {
+	padding: 2rem;
+	width:100%;
+}
+
+.correct {
+	background-color: green;
+}
+
+.incorrect {
+	background-color: red;
+}
