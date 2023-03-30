@@ -74,7 +74,7 @@ a {
 	color:pink;
 }
 
-.button { 
+.start-button { 
  
 	transition: all .5s ease;
 	background-color:transparent;
@@ -89,7 +89,7 @@ a {
 	height: auto;
 }
 
-.button:hover {
+.start-button:hover {
 
 	color:black;
 	border: 2px solid black;
@@ -106,88 +106,86 @@ a {
 	}
 /* Quiz */
 
-#container {
+#main-container {
 	font-family: 'Raleway', sans-serif;
-	box-sizing: border-box;
-	padding: 0;
+	padding: 20%;
+	margin: 0;
 	width:100vw;
 	height: 100vh;
 	display:flex;
 	justify-content:center;
 	align-items: center;
-	max-width: 80rem;
-	margin:0 auto;
-	padding: 2 rem;
+	
 }
 
-#flex-column {
+.quiz-container {
+	width: 800px;
+	max-width:80%;
 
-	display:flex;
-	flex-direction: column;
+	
 }
 
-#flex-center {
-	justify-content: center;
-	align-items: center;
+.butn-grid {
+	display: grid;
+	grid-template-columns: repeat(2,auto);
+	gap: 10px;
+	margin: 20px
 }
 
-#justify-center {
-	justify-content: center;
+.butn {
+	background-color:#b5b86a ;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px 15px;
+	color: black;
+	outline: none;
 }
 
-#text.center {
-	text-align: center;
-}
-
-.hidden {
-		display:none;
-	}
-
-.choice-container {
-	display:flex;
-	margin-bottom: 0.8rem;
-	width:100%;
-	border-radius: 4px;
-	background-color: #b5b86a;
-	font-size: 20px;
-	min-width: 80rem;
-}
-
-.choice-container:hover {
-	cursor: pointer;
+.butn:hover {
 	border: 2px solid black;
 }
 
-.choice-prefix {
-	padding: 2rem 2.5rem;
-	color:white;
-}	
+ .butn-correct {
+ 	background-color: green;
+ 	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px 15px;
+	color: black;
+	outline: none;
 
-.choice-text {
-	padding: 2rem;
-	width:100%;
-}
+ }
 
+ .butn-wrong {
+ 	background-color: red;
+ 	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px 15px;
+	color: black;
+	outline: none;
+ }
 
+ .start-butn, {
 
-.correct {
-	background-color: green;
-}
+ 	font-size: 50px;
+ 	font-weight: bold;
+ 	padding: 10px 20px;
 
-.incorrect {
-	background-color: red;
-}
+ }
 
-#hud {
-	display:flex;
-	justify-content: space-between;
-}
+ .next-butn {
 
-.hud-prefix {
-	text-align: center;
-	font-size: 2rem;
-}
+ 	font-size: 10px;
+ 	font-weight: bold;
+ 	padding: 10px 20px;
+ }
 
-.hud-main-text {
-	text-align: center;
-}
+ .controls {
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ }
+
+ .hide {
+ 	display: none;
+ }
+
