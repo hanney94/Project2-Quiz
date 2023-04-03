@@ -5,9 +5,8 @@ const nextButton = document.getElementById('next-butn')
 const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
-const score = document.getElementById ('score')
- 
- console.log (score)
+
+
 
 let shuffledQuestions, currentQuestionIndex
 
@@ -64,8 +63,6 @@ function selectAnswer (e) {
 
 	})
 	if (shuffledQuestions.length > currentQuestionIndex + 1)	{
-		score += 100
-		score.innerText= score
 		nextButton.classList.remove('hide')
 } else {
 	startButton.innerText = 'Restart'
@@ -74,7 +71,6 @@ function selectAnswer (e) {
 }
 
 function setStatusClass(element, correct) {
-
 	clearStatusClass(element)
 	if (correct) {
 		element.classList.add('correct')
@@ -92,45 +88,45 @@ function clearStatusClass(element) {
 const questions = [
    {
 
-   	question: 'Abba is...what?',
+   	question: 'ABBA formed in 1972 in which city?',
    	answers: [
-   		{ text: 'the best', correct: true},
-   		{ text: 'the worst', correct: false},
-   		{ text: 'test', correct: false},
-   		{ text: 'hello', correct: false},
+   		{ text: 'Stockholm, Sweden', correct: true},
+   		{ text: 'Barcelona, Spain', correct: false},
+   		{ text: 'Lisbon, Portugal', correct: false},
+   		{ text: 'Copenhagen, Denmark', correct: false},
 
    		]
     },
      {
 
-   	question: 'Mamma Mia...',
+   	question: 'ABBA is an acronym formed from the first letters of each group members first name. What do the two Bs stand for?',
    	answers: [
-   		{ text: 'Here i go again', correct: true},
-   		{ text: 'having the time', correct: false},
-   		{ text: 'test', correct: false},
-   		{ text: 'hello', correct: false},
+   		{ text: 'Bjorn, Benny', correct: true},
+   		{ text: 'Barry, Brent', correct: false},
+   		{ text: 'Bob, Brad', correct: false},
+   		{ text: 'Bill, Brian', correct: false},
 
    		]
     },
      {
 
-   	question: 'Abba stands for?',
+   	question: 'What was the band’s last single? It was released in 1983.',
    	answers: [
-   		{ text: 'a b b a', correct: true},
-   		{ text: 'hello', correct: false},
-   		{ text: 'test', correct: false},
-   		{ text: 'hello', correct: false},
+   		{ text: 'SOS', correct: false},
+   		{ text: 'Mamma Mia', correct: false},
+   		{ text: 'Thank You For The Music', correct: true},
+   		{ text: 'Andante, Andante', correct: false},
 
    		]
     },
      {
 
-   	question: 'Abba are from',
+   	question: 'In the lyrics, how old was the dancing queen?',
    	answers: [
-   		{ text: 'Sweden', correct: true},
-   		{ text: 'denmark', correct: false},
-   		{ text: 'test', correct: false},
-   		{ text: 'hello', correct: false},
+   		{ text: '22', correct: false},
+   		{ text: '17', correct: true},
+   		{ text: '40', correct: false},
+   		{ text: '19', correct: false},
 
    		]
     },
