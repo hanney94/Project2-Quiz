@@ -129,9 +129,11 @@ a {
   padding: 0.5em 1.8em;
   border-radius: 0.2em;
 }
+
 #restart {
   margin-top: 0.9em;
 }
+
 #display-container {
   background-color: #ffffff;
    padding: 100px;
@@ -212,7 +214,7 @@ a {
 
 #user-score {
   font-size: 1.5em;
-  color: #ffffff;
+  color: #black;
 }
 
 
