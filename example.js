@@ -56,7 +56,7 @@ const quizArray = [
   },
   {
     id: "6",
-    question: "What was the name of ABBA?s manager?",
+    question: "What was the name of ABBA's manager?",
     options: ["Lou Pearlman", "Peter Grant", "Malcolm McLaren", "Stig Anderson"],
     correct: "Stig Anderson",
   },
@@ -75,7 +75,7 @@ const quizArray = [
   {
     id: "9",
     question: "Complete the line from \"Mamma Mia\" : \"I've been cheated by you ___.\"",
-    options: ["since we started", "and I think you know since when", "since I don't know when", "since you walked out my room"],
+    options: ["Since we started", "And I think you know since when", "Since I don't know when", "Since you walked out my room"],
     correct: "since I don't know when",
   },
 ];

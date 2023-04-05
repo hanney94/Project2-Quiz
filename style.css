@@ -1,11 +1,22 @@
+
 #wrapper {
 
 	font-family: 'Raleway', sans-serif;
 }
 
+#content, #listen, #howto{
+
+	text-align: center;
+	padding-top: 150px;
+	max-width: 100%;
+       height: auto;
+}
+
+
+/* Nav Bar */
 .nav-link{
 
-	font-family: 'Raleway', sans-serif;
+	
 	font-size: 15px;
 	color: #b5b86a;
 }
@@ -14,96 +25,103 @@
 	border-bottom: solid gray 1px;
 }
 
-#content, #listen, #howto {
 
-	text-align: center;
-	padding-top: 150px;
-	font-family: 'Raleway', sans-serif;
-	max-width: 100%;
-       height: auto;
+/* index */
+
+@media (max-width: 576px) {
+
+	#abbafan {font-size: 50px}
 }
 
-#instructions {
-	padding-top:50px;
-	width: 50%;
-    float: left;
-    text-align: center;
-   
+#abbafan {
 
-}
-
-#images {
-	width: 50%;
-	float:right;
-}
-
-#abba2 {
-	max-width: 100%;
-        height: auto;
-        padding:30px;
-        
-
-}
-
-#music {
-
-	color:#b5b86a;
-	font-family: 'Raleway', sans-serif;
-}
-
-
-
-h1 {
-
-	font-family: 'Raleway', sans-serif;
-	font-size: 5vw;
-	max-width: 100%;
-  height: auto;
-
-}
-
-#abbafan{
-
-	font-family: 'Raleway', sans-serif;
-	font-size: 1vw;
+	
+	font-size: 20px;
 	color:#b5b86a;
 }
 
-a {
 
-	color:pink;
-}
 
 .startbtn{ 
  
 	transition: all .5s ease;
 	background-color:transparent;
-	color:black;
+	color:#000000;
 	border-radius:20px;
 	border:1px solid black;
 	padding:12px 28px;
 	text-decoration:none;
 	opacity:0.5;
-	font-family: 'Raleway', sans-serif;
+	
 	max-width: 100%;
 	height: auto;
 }
 
 .startbtn:hover {
 
-	color:black;
+	color:#000000;
 	border: 2px solid black;
 	opacity:0.7;
 	background-color:#b5b86a;
 
 	}
 
-	#image {
+#image {
 
 	max-width: 100%;
         height: auto;
 
 	}
+
+
+#abbasite {
+	margin-top: 20px;
+	text-align: center;
+	max-width: 100%;
+        height: auto;
+}
+
+#abbalink {
+	color:#b5b86a;
+	}
+
+#abbalink:hover {
+	color:#000000;
+}
+
+
+/* How to */
+
+ul {
+font-size:20px;
+}
+
+#instructions {
+    margin-top:50px;
+    text-align: center;
+    height: auto;
+   }
+
+
+
+/*listen */
+
+#music {
+
+	color:#b5b86a;
+	
+}
+
+
+
+#h1 {
+	font-size:30px;
+	max-width: 100%;
+       height: auto;
+}
+
+
+
 /* Quiz 1 */
 
 .start-screen,
@@ -121,13 +139,18 @@ a {
   justify-content: center;
 }
 
+#goodluck {
+
+	font-size: 20px;
+}
 
 #start-button,
 #restart {
+   border-radius: 20.8px;
   background-color: #b5b86a;
-  font-size: 1.3em;
-  padding: 0.5em 1.8em;
-  border-radius: 0.2em;
+  font-size: 20.8px;
+  padding: 8px 28.8px;
+ 
 }
 
 #restart {
@@ -140,59 +163,63 @@ a {
   margin-bottom: 200px;
   margin-top: 220px;
   width: 80%;
-  max-width: 37.5em;
-  margin: 0 auto;
+  max-width: 600px;
+  margin: 100px auto;
   top: 50%;
   left: 50%;
-  border-radius: 0.6em;
+  border-radius: 9.6px;
 }
 .header {
-  margin-bottom: 1.8em;
+  margin-bottom: 28.8;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 0.6em;
-  border-bottom: 0.1em solid #c0bfd2;
+  padding-bottom: 9.6px;
+  border-bottom: 1.6px solid #c0bfd2;
 }
 .timer-div {
   background-color: #b5b86a;
-  width: 7.5em;
-  border-radius: 1.8em;
+  width: 104px;
+  border-radius: 28.8px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.7em 1.8em;
+  padding: 11.2px 28.8px;
 }
 
 .question {
-	color:black;
-  margin-bottom: 1.25em;
-  font-weight: 600;
+  font-size: 20px;
+  color:black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
 }
 
 .option-div {
-  font-size: 0.9em;
+  font-size: 15px;
   width: 100%;
-  padding: 1em;
-  margin: 0.3em 0;
+  padding: 16px;
+  margin: 4.8px 0px;
   text-align: left;
   outline: none;
   background: transparent;
   border: 1px solid #c0bfd2;
-  border-radius: 0.3em;
+  border-radius: 4.8px;
 }
 
 .option-div:disabled {
   color: #000000;
   cursor: not-allowed;
 }
+
 #next-button {
-  font-size: 1em;
-  margin-top: 1.5em;
+  font-size: 16px;
+  margin-top: 24px;
+  border-radius: 28.8px;
   background-color: #b5b86a;
   color: #ffffff;
-  padding: 0.7em 1.8em;
-  border-radius: 0.3em;
+  padding: 11.2px 28.8px;
+  border-radius: .4.8px;
   float: right;
 }
 
@@ -213,116 +240,8 @@ a {
 }
 
 #user-score {
-  font-size: 1.5em;
+  font-size: 24px;
   color: #black;
 }
-
-
-/* Quiz
-
-#main-container {
-	font-family: 'Raleway', sans-serif;
-	padding: 20%;
-	margin: 0;
-	width:100vw;
-	height: 100vh;
-	display:flex;
-	justify-content:center;
-	align-items: center;
-	
-}
-
-.quiz-container {
-	width: 800px;
-	max-width:80%;
-
-	
-}
-
-.butn-grid {
-	display: grid;
-	grid-template-columns: repeat(2,auto);
-	gap: 10px;
-	margin: 20px
-}
-.buton {
-	transition: all .5s ease;
-	background-color:transparent;
-	color:black;
-	border-radius:20px;
-	border:1px solid black;
-	padding:12px 28px;
-	text-decoration:none;
-	opacity:0.5;
-}
-
-.buton:hover {
-	color:black;
-	border: 2px solid black;
-	opacity:0.7;
-	background-color:#b5b86a;
-
-}
-.butn {
-	background-color:#b5b86a ;
-	border: 1px solid black;
-	border-radius: 10px;
-	padding: 10px 15px;
-	color: black;
-	outline: none;
-}
-
-.butn:hover {
-	border: 2px solid black;
-}
-
- .butn-correct {
- 	background-color: green;
- 	border: 1px solid black;
-	border-radius: 5px;
-	padding: 10px 15px;
-	color: black;
-	outline: none;
-
- }
-
- .butn-wrong {
- 	background-color: red;
- 	border: 1px solid black;
-	border-radius: 5px;
-	padding: 10px 15px;
-	color: black;
-	outline: none;
- }
-
- #start-butn {
-
- 	font-size: 50px;
- 	font-weight: bold;
- 	padding: 20px 40px;
-
- }
-
- .next-butn {
-
- 	font-size: 15px;
- 	font-weight: bold;
- 	padding: 10px 20px;
- }
-
- .controls {
- 	display: flex;
- 	justify-content: center;
- 	align-items: center;
- }
-
- .hide {
- 	display: none;
- }
-
- #question {
- 	font-size: 30px;
- }
-*/
 
 
