@@ -76,7 +76,7 @@ const quizArray = [
     id: "9",
     question: "Complete the line from \"Mamma Mia\" : \"I've been cheated by you ___.\"",
     options: ["Since we started", "And I think you know since when", "Since I don't know when", "Since you walked out my room"],
-    correct: "since I don't know when",
+    correct: "Since I don't know when",
   },
 ];
 
