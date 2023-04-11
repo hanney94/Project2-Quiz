@@ -1,10 +1,11 @@
+/* Main */
 
 #wrapper {
 
 	font-family: 'Raleway', sans-serif;
 }
 
-#content, #listen, #howto{
+#content, #listen, #howto {
 
 	text-align: center;
 	padding-top: 150px;
