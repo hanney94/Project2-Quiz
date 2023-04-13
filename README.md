@@ -1,4 +1,4 @@
-# Project2-Quiz- ABBA Quiz
+# Project2 - ABBA Quiz
 <p> Project 2 required a website that included a Javascript Quiz. I chose to make a quiz based on my favourtie band; ABBA! The website has a simple & easy to navigate layout. I have designed the website using typical ABBA colours with the main colour being Gold.</p>
 <h1> Features </h1>
 <h3> All Pages </h3>
