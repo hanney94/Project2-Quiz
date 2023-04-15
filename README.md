@@ -4,9 +4,14 @@
 <h3> All Pages </h3>
 <ul> 
 <li> Navigation Bar - A Bootstrap Nav-Bar which allows users to navigate easily around the website by clicking each navigation link, which will then take them to the relevant page. This collapses into a hamburger menu when the page size is reduced.</li>
-<li> Footer - A Bootstrap footer at the bottom of each page with my name and the year I created the website. </li>
+<li> Footer - A Bootstrap footer at the bottom of each page with links to ABBA social media pages. </li>
 </ul>
 <h3> index.html </h3>
 <ul>
 <li> Image - a large image of the band.
-<li>
+<li> A Welcome sign with instructions on how to start the quiz </li>
+</ul>
+<h3> howto.html </h3>
+<ul>
+<li> This page gives the user clear instructions on how to navigate the quiz </li>
+</ul>
