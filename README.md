@@ -27,3 +27,22 @@
 <ul>
 <li> This page has different links to Music Streaming Services where the user can listen to ABBA music.</li>
 </ul>
+
+<h1>Technologies Used</h1>
+<ul>
+<li> HTML5 - The project uses <b>HTML5</b> to create the basic elements and content of the website.</li>
+<li> CSS3 - The project uses <b>CSS3</b> to add my desired styles to the elements and content of the website.</li>
+  <li> Javascript - The project uses <b>Javascript</b> tocreate the quiz in this website. </li>
+  <li> Bootstrap - 
+<li> Google Fonts - The project uses <b>Google Fonts</b> to run in theme with the rest of my websiste.</li>
+<li> Font Awesome - The project uses <b>Font Awesome</b> to inlcude Icons used in the Nav-Bar and Footer. </li>
+<li> Git - I used <b>Git</b> to regularly push and commit changes in the project.</li>
+<li> GitHub - I used <b>GitHub</b> as a remote repository to push and store the committed changes to my project from Git. I have also used GitHub to create the README.md file.</li>
+</ul>
+<h1>Responsive Testing</h1>
+I used Google Chrome's development tool's to test the responsiveness of my website on different sized devices.
+<h3>HTML & CSS Validation</h3>
+<ul>
+<li>I used the <b>W3C HTML Validator</b> tool to validate my HTML code.</li>
+<li>I used the <b>W3C CSS Validator</b> tool to validate my CSS code.</li>
+</ul>
