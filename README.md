@@ -9,9 +9,21 @@
 <h3> index.html </h3>
 <ul>
 <li> Image - a large image of the band.
-<li> A Welcome sign with instructions on how to start the quiz </li>
+<li> A Welcome sign with instructions on how to start the quiz. </li>
 </ul>
 <h3> howto.html </h3>
 <ul>
-<li> This page gives the user clear instructions on how to navigate the quiz </li>
+<li> This page gives the user clear instructions on how to navigate the quiz. </li>
+</ul>
+<h3> quiz.html </h3>
+<ul>
+<li> Button - this page includes a button that when the users selects it will direct them to the quiz. </li>
+</ul>
+<h3> example.js </h3>
+<ul>
+<li> The page contains the ABBA quiz created with Javascript. It includes a timer, the amount of questions, a 'Next' Button, a final score and a 'Restart' Button once the user has completed it. </li>
+</ul>
+<h3> listen.html</h3>
+<ul>
+<li> This page has different links to Music Streaming Services where the user can listen to ABBA music.</li>
 </ul>
