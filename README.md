@@ -40,9 +40,10 @@
 <li> GitHub - I used <b>GitHub</b> as a remote repository to push and store the committed changes to my project from Git. I have also used GitHub to create the README.md file.</li>
 </ul>
 <h1>Responsive Testing</h1>
-I used Google Chrome's development tool's to test the responsiveness of my website on different sized devices.
-<h3>HTML & CSS Validation</h3>
+I used Mac Safari and Google Chome's development tool's to test the responsiveness of my website on different sized devices.
+<h3>HTML,CSS & Javascript Validation</h3>
 <ul>
 <li>I used the <b>W3C HTML Validator</b> tool to validate my HTML code.</li>
 <li>I used the <b>W3C CSS Validator</b> tool to validate my CSS code.</li>
+<li> I used <b>https://codebeautify.org/jsvalidate </b> to validate my Javascript code. </li>
 </ul>
