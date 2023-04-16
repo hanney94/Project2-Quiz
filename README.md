@@ -47,3 +47,5 @@ I used Mac Safari and Google Chome's development tool's to test the responsivene
 <li>I used the <b>W3C CSS Validator</b> tool to validate my CSS code.</li>
 <li> I used <b>https://codebeautify.org/jsvalidate </b> to validate my Javascript code. </li>
 </ul>
+<h1> Deployment </h1>
+<p> The website was created using <b>Sublime Text</b>, a local git directory was used for version control and then uploaded to Git. I used 'git init' to initiate the git repository, 'git add .' & 'git commit -m "message goes here"' which would add a message with the information of what changes were made folowed by 'git push origin master' to push the changes to the repoistory.  I did this every time changes were made, however unfortunately I lost a lot of commit's during the process due to an error I struggled to fix near the end of the project. Once the website was finished I used Git Pages to make the website live.</p>
