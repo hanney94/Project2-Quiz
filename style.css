@@ -171,7 +171,7 @@ font-size:20px;
   border-radius: 9.6px;
 }
 .header {
-  margin-bottom: 28.8;
+  margin-bottom: 28.8px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -220,7 +220,7 @@ font-size:20px;
   background-color: #b5b86a;
   color: #ffffff;
   padding: 11.2px 28.8px;
-  border-radius: .4.8px;
+  border-radius: 4.8px;
   float: right;
 }
 
@@ -242,7 +242,7 @@ font-size:20px;
 
 #user-score {
   font-size: 24px;
-  color: #black;
+  color: #000000;
 }
 
 
